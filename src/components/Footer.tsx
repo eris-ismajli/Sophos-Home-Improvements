@@ -1,4 +1,4 @@
-import { Facebook, Instagram, Twitter, Linkedin, Heart } from 'lucide-react';
+import { Facebook, Instagram, Twitter, Linkedin, Heart } from "lucide-react";
 
 const Footer = () => {
   const scrollToSection = (id: string) => {
@@ -10,33 +10,33 @@ const Footer = () => {
 
       window.scrollTo({
         top: offsetPosition,
-        behavior: 'smooth',
+        behavior: "smooth",
       });
     }
   };
 
   const quickLinks = [
-    { label: 'Home', id: 'home' },
-    { label: 'About', id: 'about' },
-    { label: 'Services', id: 'services' },
-    { label: 'Gallery', id: 'gallery' },
-    { label: 'Contact', id: 'contact' },
+    { label: "Home", id: "home" },
+    { label: "About", id: "about" },
+    { label: "Services", id: "services" },
+    { label: "Gallery", id: "gallery" },
+    { label: "Contact", id: "contact" },
   ];
 
   const services = [
-    'Home Renovations',
-    'Kitchen Remodeling',
-    'Bathroom Remodeling',
-    'Flooring Installation',
-    'Custom Carpentry',
-    'Home Inspections',
+    "Home Renovations",
+    "Kitchen Remodeling",
+    "Bathroom Remodeling",
+    "Flooring Installation",
+    "Custom Carpentry",
+    "Home Inspections",
   ];
 
   const socialLinks = [
-    { icon: Facebook, href: 'https://facebook.com', label: 'Facebook' },
-    { icon: Instagram, href: 'https://instagram.com', label: 'Instagram' },
-    { icon: Twitter, href: 'https://twitter.com', label: 'Twitter' },
-    { icon: Linkedin, href: 'https://linkedin.com', label: 'LinkedIn' },
+    { icon: Facebook, href: "https://facebook.com", label: "Facebook" },
+    { icon: Instagram, href: "https://instagram.com", label: "Instagram" },
+    { icon: Twitter, href: "https://twitter.com", label: "Twitter" },
+    { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
   ];
 
   return (
@@ -52,8 +52,9 @@ const Footer = () => {
               Sophos Home
             </h3>
             <p className="text-gray-400 leading-relaxed mb-6">
-              Transforming houses into dream homes with exceptional craftsmanship, innovative
-              design, and unparalleled dedication to quality.
+              Transforming houses into dream homes with exceptional
+              craftsmanship, innovative design, and unparalleled dedication to
+              quality.
             </p>
             <div className="flex gap-4">
               {socialLinks.map((social, index) => {
@@ -106,23 +107,17 @@ const Footer = () => {
             <ul className="space-y-4 text-gray-400 text-sm">
               <li>
                 <div className="font-semibold text-white mb-1">Address</div>
-                123 Renovation Ave
+                13790 Bridgewater Crossings Blvd
                 <br />
-                Design City, DC 12345
+                Windermere, FL 34786
               </li>
               <li>
                 <div className="font-semibold text-white mb-1">Phone</div>
-                (555) 123-4567
+                (740) 777-9677
               </li>
               <li>
                 <div className="font-semibold text-white mb-1">Email</div>
-                info@sophoshome.com
-              </li>
-              <li>
-                <div className="font-semibold text-white mb-1">Hours</div>
-                Mon - Fri: 8AM - 6PM
-                <br />
-                Sat: 9AM - 4PM
+                ab@sophosecom.com
               </li>
             </ul>
           </div>
@@ -131,8 +126,10 @@ const Footer = () => {
         <div className="pt-8 border-t border-white/10">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-gray-400 text-sm flex items-center gap-2">
-              © {new Date().getFullYear()} Sophos Home Improvements. All rights reserved. Made
-              with <Heart size={14} className="text-red-500 fill-current" /> for beautiful homes.
+              © {new Date().getFullYear()} Sophos Home Improvements. All rights
+              reserved. Made with{" "}
+              <Heart size={14} className="text-red-500 fill-current" /> for
+              beautiful homes.
             </p>
             <div className="flex gap-6 text-sm text-gray-400">
               <button className="hover:text-white transition-colors duration-300">

@@ -30,19 +30,19 @@ const Contact = () => {
     {
       icon: Phone,
       title: 'Phone',
-      value: '(555) 123-4567',
-      link: 'tel:5551234567',
+      value: '(740) 777-9677',
+      link: 'tel:7407779677',
     },
     {
       icon: Mail,
       title: 'Email',
-      value: 'info@sophoshome.com',
-      link: 'mailto:info@sophoshome.com',
+      value: 'ab@sophosecom.com',
+      link: 'mailto:ab@sophosecom.com',
     },
     {
       icon: MapPin,
       title: 'Address',
-      value: '123 Renovation Ave, Design City, DC 12345',
+      value: '13790 Bridgewater Crossings Blvd #1080 Windermere, FL 34786',
       link: 'https://maps.google.com',
     },
   ];
